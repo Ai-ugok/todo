@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +38,7 @@
         <div class="citySelect">
           <label>地域を選んでね
             <select v-model="city" @change="getProgramList">
-            <!-- changeイベントはchatGPTに教えてもらいました -->
+              <!-- changeイベントはchatGPTに教えてもらいました -->
               <option value="sapporo">札幌</option>
               <option value="sendai">仙台</option>
               <option value="tokyo">東京</option>
@@ -47,7 +48,7 @@
               <option value="fukuoka">福岡</option>
             </select>
           </label>
-        </div>  
+        </div>
       </div>
       <!-- タスク追加ボタン -->
       <button @click="add">＋</button>
@@ -119,6 +120,8 @@
   </section>
 
   <script src="https://unpkg.com/petite-vue"></script>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
